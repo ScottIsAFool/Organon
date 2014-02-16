@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
-  <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="{a53dbc0f-52ac-492a-9810-c6bd99db9e69}" Title="WP8.Organon" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="WP8.Organon author" Description="Sample description" Publisher="WP8.Organon" PublisherID="{ea7f6809-093c-467e-871f-defc2e3e09cd}">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{a53dbc0f-52ac-492a-9810-c6bd99db9e69}" Title="Organon for Windows Phone 8" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="WP8.Organon author" Description="Organon demo app for Windows Phone 8" Publisher="WP8.Organon" PublisherID="{ea7f6809-093c-467e-871f-defc2e3e09cd}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
-      <Capability Name="ID_CAP_NETWORKING"/>
-      <Capability Name="ID_CAP_MEDIALIB_AUDIO"/>
-      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK"/>
-      <Capability Name="ID_CAP_SENSORS"/>
-      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
     </Capabilities>
     <Tasks>
-      <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
+      <DefaultTask Name="_default" NavigationPage="View/MainPage.xaml" />
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="WP8.OrganonToken" TaskName="_default">
@@ -20,19 +19,24 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>WP8.Organon</Title>
-          <BackContent></BackContent>
-          <BackBackgroundImageURI></BackBackgroundImageURI>
-          <BackTitle></BackTitle>
-          <DeviceLockImageURI></DeviceLockImageURI>
-          <HasLarge></HasLarge>
+          <Title>Organon</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>
+          </HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
     <ScreenResolutions>
-      <ScreenResolution Name="ID_RESOLUTION_WVGA"/>
-      <ScreenResolution Name="ID_RESOLUTION_WXGA"/>
-      <ScreenResolution Name="ID_RESOLUTION_HD720P"/>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
     </ScreenResolutions>
   </App>
 </Deployment>
