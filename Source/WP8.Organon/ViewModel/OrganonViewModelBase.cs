@@ -4,7 +4,7 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 
-namespace WP8.Organon.ViewModel
+namespace Organon.WP8.ViewModel
 {
     public class OrganonViewModelBase : ViewModelBase
     {

@@ -2,7 +2,7 @@ using Cimbalino.Phone.Toolkit.Services;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 
-namespace WP8.Organon.ViewModel
+namespace Organon.WP8.ViewModel
 {
     public class MainViewModel : OrganonViewModelBase
     {

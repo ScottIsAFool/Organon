@@ -6,9 +6,9 @@ using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using WP8.Organon.Resources;
+using Organon.WP8.Resources;
 
-namespace WP8.Organon
+namespace Organon.WP8
 {
     public partial class App : Application
     {

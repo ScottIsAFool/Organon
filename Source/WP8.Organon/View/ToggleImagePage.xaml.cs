@@ -8,7 +8,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace WP8.Organon.View
+namespace Organon.WP8.View
 {
     public partial class ToggleImagePage : PhoneApplicationPage
     {

@@ -1,7 +1,7 @@
 ﻿using Cimbalino.Phone.Toolkit.Services;
 using GalaSoft.MvvmLight.Messaging;
 
-namespace WP8.Organon.ViewModel
+namespace Organon.WP8.ViewModel
 {
     public class ToggleImageViewModel : OrganonViewModelBase
     {

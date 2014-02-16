@@ -4,7 +4,7 @@ using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Messaging;
 using Microsoft.Practices.ServiceLocation;
 
-namespace WP8.Organon.ViewModel
+namespace Organon.WP8.ViewModel
 {
     /// <summary>
     /// This class contains static references to all the view models in the

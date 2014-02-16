@@ -6,7 +6,7 @@
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>Win8.Organon</DisplayName>
+    <DisplayName>Organon.Win8</DisplayName>
     <PublisherDisplayName>Glenn</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="Win8.Organon.App">
+        EntryPoint="Organon.Win8.App">
         <m2:VisualElements
-            DisplayName="Win8.Organon"
+            DisplayName="Organon.Win8"
             Square150x150Logo="Assets\Logo.png"
             Square30x30Logo="Assets\SmallLogo.png"
-            Description="Win8.Organon"
+            Description="Organon.Win8"
             ForegroundText="light"
             BackgroundColor="#464646">
             <m2:SplashScreen Image="Assets\SplashScreen.png" />

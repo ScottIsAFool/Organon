@@ -1,6 +1,6 @@
-﻿using WP8.Organon.Resources;
+﻿using Organon.WP8.Resources;
 
-namespace WP8.Organon
+namespace Organon.WP8
 {
     /// <summary>
     /// Provides access to string resources.

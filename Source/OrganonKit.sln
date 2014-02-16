@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win8.Organon", "Win8.Organon\Win8.Organon.csproj", "{C5A2CC58-43C7-4E7D-9347-14D344D69419}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organon.Win8", "Win8.Organon\Organon.Win8.csproj", "{C5A2CC58-43C7-4E7D-9347-14D344D69419}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BBBABFF2-929B-4DED-8EB4-98B66C9AF67D}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BBBABF
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP8.Organon", "WP8.Organon\WP8.Organon.csproj", "{A53DBC0F-52AC-492A-9810-C6BD99DB9E69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organon.WP8", "WP8.Organon\Organon.WP8.csproj", "{A53DBC0F-52AC-492A-9810-C6BD99DB9E69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
