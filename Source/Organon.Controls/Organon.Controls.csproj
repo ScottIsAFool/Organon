@@ -106,6 +106,7 @@
   <ItemGroup>
     <Compile Include="ParallaxListView\ParallaxListView.cs" />
     <Compile Include="ParallaxListView\ParallaxListViewItem.cs" />
+    <Compile Include="PinterestPanl\PinterestPanel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
