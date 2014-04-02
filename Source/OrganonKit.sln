@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BBBABFF2-929B-4DED-8EB4-98B66C9AF67D}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organon.Win8", "Organon.Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organon.WP8.Controls", "Organon.WP8.Controls\Organon.WP8.Controls.csproj", "{1A8073FD-4B98-4D44-91FA-7CDBE752DAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organon.Controls", "Organon.Controls\Organon.Controls.csproj", "{04189912-3FBB-46B9-B7A4-A32DBA206ABB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organon.Controls", "Organon.Controls\Organon.Controls.csproj", "{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,22 +88,16 @@ Global
 		{1A8073FD-4B98-4D44-91FA-7CDBE752DAB5}.Release|x64.ActiveCfg = Release|Any CPU
 		{1A8073FD-4B98-4D44-91FA-7CDBE752DAB5}.Release|x86.ActiveCfg = Release|x86
 		{1A8073FD-4B98-4D44-91FA-7CDBE752DAB5}.Release|x86.Build.0 = Release|x86
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|ARM.ActiveCfg = Debug|ARM
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|ARM.Build.0 = Debug|ARM
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|x64.ActiveCfg = Debug|x64
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|x64.Build.0 = Debug|x64
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|x86.ActiveCfg = Debug|x86
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Debug|x86.Build.0 = Debug|x86
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|ARM.ActiveCfg = Release|ARM
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|ARM.Build.0 = Release|ARM
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|x64.ActiveCfg = Release|x64
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|x64.Build.0 = Release|x64
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|x86.ActiveCfg = Release|x86
-		{04189912-3FBB-46B9-B7A4-A32DBA206ABB}.Release|x86.Build.0 = Release|x86
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Release|x64.ActiveCfg = Release|Any CPU
+		{B7F5F2E6-B360-4E29-8D92-DC209FC8F440}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
