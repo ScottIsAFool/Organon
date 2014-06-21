@@ -85,6 +85,7 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\ProgressBehavior.cs" />
     <Compile Include="Behaviors\StatusBarBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
