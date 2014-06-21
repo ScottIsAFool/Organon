@@ -11,6 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ParallaxListView\ParallaxListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ParallaxListView\ParallaxListViewItem.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)PinterestPanl\PinterestPanel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PinterestPanel\PinterestPanel.cs" />
   </ItemGroup>
 </Project>
