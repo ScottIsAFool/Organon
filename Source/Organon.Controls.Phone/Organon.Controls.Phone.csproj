@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="Behaviors\ProgressBehavior.cs" />
     <Compile Include="Behaviors\StatusBarBehavior.cs" />
+    <Compile Include="MenuFlyout\MenuFlyoutService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
