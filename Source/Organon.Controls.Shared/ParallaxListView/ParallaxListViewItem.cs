@@ -29,6 +29,19 @@ namespace Organon.Controls
             typeof(ParallaxListViewItem), 
             new PropertyMetadata(0d, OnOffsetChanged));
 
+        public string ImagePath
+        {
+            get { return (string)GetValue(ImagePathProperty); }
+            set { SetValue(ImagePathProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for ImagePath.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImagePathProperty = DependencyProperty.Register(
+            "ImagePath", 
+            typeof(string), 
+            typeof(ParallaxListViewItem), 
+            new PropertyMetadata("Image"));
+
         internal double SliderHeight { get; private set; }
 
         protected override void OnContentChanged(object oldContent, object newContent)
@@ -36,7 +49,7 @@ namespace Organon.Controls
             base.OnContentChanged(oldContent, newContent);
             if (_image == null) return;
 
-            Binding binding = new Binding() { Path = new PropertyPath("Image"), Source = newContent };
+            Binding binding = new Binding() { Path = new PropertyPath(ImagePath), Source = newContent };
             _image.SetBinding(Image.SourceProperty, binding);
         }
 
@@ -47,7 +60,7 @@ namespace Organon.Controls
             FrameworkElement contentContainer = (FrameworkElement)GetTemplateChild("ContentContainer");
             _image = (Image)GetTemplateChild("ParallaxImage");
 
-            Binding binding = new Binding() { Path = new PropertyPath("Image"), Source = Content };
+            Binding binding = new Binding() { Path = new PropertyPath(ImagePath), Source = Content };
             _image.SetBinding(Image.SourceProperty, binding);
 
             FrameworkElement imageContainer = (FrameworkElement)GetTemplateChild("ImageContainer");
