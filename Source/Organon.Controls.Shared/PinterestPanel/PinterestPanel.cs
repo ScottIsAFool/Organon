@@ -3,7 +3,7 @@ using Windows.Foundation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Organon.Controls.PinterestPanl
+namespace Organon.Controls
 {
     public class PinterestPanel : Panel
     {
