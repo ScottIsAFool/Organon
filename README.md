@@ -1,2 +1,2 @@
-Organon
+![Organon logo](Media/OrganonLogoL.png)
 =======
