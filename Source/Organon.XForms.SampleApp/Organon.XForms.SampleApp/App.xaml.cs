@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Organon.XForms.SampleApp.Views;
 using Xamarin.Forms;
 
 namespace Organon.XForms.SampleApp
@@ -13,7 +9,7 @@ namespace Organon.XForms.SampleApp
         {
             InitializeComponent();
 
-            MainPage = new Organon.XForms.SampleApp.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
