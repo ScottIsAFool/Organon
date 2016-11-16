@@ -21,6 +21,8 @@ namespace Organon.XForms.SampleApp.iOS
 			//Be sure to let the iOS linker know we need this assembly!
 			var cv = typeof(Organon.XForms.Effects.iOS.Effects.ClearEntryEffect);
 			var assembly = Assembly.Load(cv.FullName);
+			cv = typeof(Organon.XForms.Effects.ClearEntryEffect);
+			assembly = Assembly.Load(cv.FullName);			
         }
     }
 }
