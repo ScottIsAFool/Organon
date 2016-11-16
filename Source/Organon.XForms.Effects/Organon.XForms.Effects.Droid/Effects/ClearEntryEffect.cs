@@ -8,7 +8,7 @@ using Xamarin.Forms.Platform.Android;
 [assembly: ExportEffect(typeof(ClearEntryEffect), "ClearEntryEffect")]
 namespace Organon.XForms.Effects.Droid.Effects
 {
-    class ClearEntryEffect : PlatformEffect
+    public class ClearEntryEffect : PlatformEffect
     {
         protected override void OnAttached()
         {

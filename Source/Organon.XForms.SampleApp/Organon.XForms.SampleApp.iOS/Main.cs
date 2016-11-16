@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Organon.XForms.Effects.iOS.Effects;
+using System.Reflection;
 
 namespace Organon.XForms.SampleApp.iOS
 {
@@ -15,6 +17,10 @@ namespace Organon.XForms.SampleApp.iOS
             // if you want to use a different Application Delegate class from "AppDelegate"
             // you can specify it here.
             UIApplication.Main(args, null, "AppDelegate");
+
+			//Be sure to let the iOS linker know we need this assembly!
+			var cv = typeof(Organon.XForms.Effects.iOS.Effects.ClearEntryEffect);
+			var assembly = Assembly.Load(cv.FullName);
         }
     }
 }

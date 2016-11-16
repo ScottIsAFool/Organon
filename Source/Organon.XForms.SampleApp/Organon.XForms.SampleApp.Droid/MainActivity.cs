@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Reflection;
 
 namespace Organon.XForms.SampleApp.Droid
 {
@@ -20,7 +21,7 @@ namespace Organon.XForms.SampleApp.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            LoadApplication(new App());
+			LoadApplication(new App());
         }
     }
 }
