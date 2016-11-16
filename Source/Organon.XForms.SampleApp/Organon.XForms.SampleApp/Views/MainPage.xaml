@@ -10,6 +10,7 @@
 		<Entry Placeholder="start typing..." VerticalOptions="Start" Margin="20,30,20,0" BackgroundColor="White">
 			<Entry.Effects>
 				<effects:ClearEntryEffect />
+        <effects:RemoveEntryLineEffect />
 			</Entry.Effects>
 		</Entry>
 	</StackLayout>
