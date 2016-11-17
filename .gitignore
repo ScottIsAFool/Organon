@@ -5,3 +5,8 @@
 _ReSharper*
 *.suo
 *.user
+Source/.droidres/.organon.xforms.sampleapp.droidres.db
+
+*.userprefs
+
+*.db

@@ -3,16 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Organon.XForms.SampleApp"
              xmlns:effects="clr-namespace:Organon.XForms.Effects;assembly=Organon.XForms.Effects"
-             x:Class="Organon.XForms.SampleApp.Views.MainPage"
-             BackgroundColor="Silver">
+             x:Class="Organon.XForms.SampleApp.Views.MainPage">
+	<ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"
+                Android="0, 0, 0, 0"
+                WinPhone="0, 0, 0, 0" />
+  </ContentPage.Padding>
   
-	<StackLayout>
-		<Entry Placeholder="start typing..." VerticalOptions="Start" Margin="20,30,20,0" BackgroundColor="White">
-			<Entry.Effects>
-				<effects:ClearEntryEffect />
+	<StackLayout Padding="20">
+      <Label Text="ClearEntryEffect"/>
+      <Entry Placeholder="start typing..." VerticalOptions="Start">
+         <Entry.Effects>
+            <effects:ClearEntryEffect />
+         </Entry.Effects>
+      </Entry>
+      <Label Text="CapitalizeKeyboardEffect" Margin="0,20,0,0"/>
+      <Entry Placeholder="start typing..." VerticalOptions="Start">
+         <Entry.Effects>
+            <effects:CapitalizeKeyboardEffect />
+         </Entry.Effects>
+      </Entry>
+      <Label Text="RemoveBorderEffect" Margin="0,20,0,0"/>
+      <Entry Placeholder="start typing..." VerticalOptions="Start">
+         <Entry.Effects>
+            <effects:RemoveBorderEffect />
+         </Entry.Effects>
+      </Entry>
+      <Label Text="RemoveEntryLineEffect" Margin="0,20,0,0"/>
+      <Entry Placeholder="start typing..." VerticalOptions="Start">
+         <Entry.Effects>
         <effects:RemoveEntryLineEffect />
-			</Entry.Effects>
-		</Entry>
+         </Entry.Effects>
+      </Entry>
 	</StackLayout>
   
 </ContentPage>
