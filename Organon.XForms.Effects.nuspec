@@ -14,7 +14,7 @@
          Built against: 2.3.2.127
        </description>
        <summary>Effects for Xamarin.Forms for iOS and Android</summary>
-       <tags>organin, xamarin, pcl, android, xamarin.forms, ios, effects</tags>
+       <tags>organon, xamarin, pcl, android, xamarin.forms, ios, effects</tags>
        <dependencies>
          <dependency id="Xamarin.Forms" version="2.3.2.127" />
        </dependencies>
