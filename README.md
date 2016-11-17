@@ -5,12 +5,12 @@ Organon is a library of Effects for Xamarin.Forms.
 
 Included effects:
 
-| Effect                     | Description | iOS | Android |
-|----------------------------|-------------|-----|---------|
-| CapitalizeKeyboardEffect | Enforces caps on the keyboard for an Entry | x | x |
-| ClearEntryEffect | Adds a clear button to an Entry | x | x |
-| RemoveBorderEffect | Removes the border from an Entry on iOS | x | - |
-| RemoveEntryLineEffect | Removes the underline from an Entry on Android | - | x |
+| Effect                     | Description | iOS | Android | UWP |
+|----------------------------|-------------|-----|---------|-----|
+| CapitalizeKeyboardEffect | Enforces caps on the keyboard for an Entry | x | x | Todo |
+| ClearEntryEffect | Adds a clear button to an Entry | x | x | - |
+| RemoveBorderEffect | Removes the border from an Entry on iOS | x | - | Todo |
+| RemoveEntryLineEffect | Removes the underline from an Entry on Android | - | x | - |
 
 
 ###### iOS
