@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Organon.Forms.Effects</id>
+       <version>$version$</version>
+       <title>Effects for Xamarin.Forms</title>
+       <authors>Glenn Versweyveld, Matthew Robbins, Jim Bennett</authors>
+       <owners>Glenn Versweyveld, Matthew Robbins, Jim Bennett</owners>
+       <projectUrl>https://github.com/OrganonKit/Organon</projectUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Organin Effects Library for Xamarin.Forms
+         Built against: 2.3.2.127
+       </description>
+       <summary>Effects for Xamarin.Forms for iOS and Android</summary>
+       <tags>organin, xamarin, pcl, android, xamarin.forms, ios, effects</tags>
+       <dependencies>
+         <dependency id="Xamarin.Forms" version="2.3.2.127" />
+       </dependencies>
+     <releaseNotes>
+     </releaseNotes>
+   </metadata>
+   <files>
+      <!--Core-->
+     <file src="Source/Organon.XForms.Effects/Organon.XForms.Effects/bin/Release/Organon.XForms.Effects.dll" target="lib/portable-net45+netcore45+wpa81+MonoAndroid10+Xamarin.iOS10/Organon.XForms.Effects.dll" />
+
+     <!--Xamarin.Android-->
+     <file src="Source/Organon.XForms.Effects/Organon.XForms.Effects.Droid/bin/Release/Organon.XForms.Effects.Droid.dll" target="lib/MonoAndroid403/Organon.XForms.Effects.Droid.dll" />
+
+     <!--Xamarin.iOSUnified-->
+     <file src="Source/Organon.XForms.Effects/Organon.XForms.Effects.iOS/bin/Release/Organon.XForms.Effects.iOS.dll" target="lib/Xamarin.iOS10/Organon.XForms.Effects.iOS.dll" />
+
+   </files>
+</package>
