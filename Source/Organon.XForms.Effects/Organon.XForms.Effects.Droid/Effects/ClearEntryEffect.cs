@@ -4,8 +4,7 @@ using Organon.XForms.Effects.Droid.Effects;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ResolutionGroupName("Organon.Effects")]
-[assembly: ExportEffect(typeof(ClearEntryEffect), "ClearEntryEffect")]
+[assembly: ExportEffect(typeof(ClearEntryEffect), nameof(ClearEntryEffect))]
 namespace Organon.XForms.Effects.Droid.Effects
 {
     public class ClearEntryEffect : PlatformEffect
@@ -21,7 +20,8 @@ namespace Organon.XForms.Effects.Droid.Effects
 
         private void ConfigureControl()
         {
-            EditText editText = ((EditText)Control);
+            var editText = Control as EditText;
+            if (editText == null) return;
             editText.SetCompoundDrawablesRelativeWithIntrinsicBounds(0, 0, Resource.Drawable.ic_clear_icon, 0);
             editText.SetOnTouchListener(new OnDrawableTouchListener());
         }
@@ -33,7 +33,7 @@ namespace Organon.XForms.Effects.Droid.Effects
         {
             if (v is EditText && e.Action == MotionEventActions.Up)
             {
-                EditText editText = (EditText)v;
+                var editText = (EditText)v;
                 if (e.RawX >= (editText.Right - editText.GetCompoundDrawables()[2].Bounds.Width()))
                 {
                     editText.Text = string.Empty;
