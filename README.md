@@ -18,7 +18,7 @@ Included effects:
 To use this on iOS you need to call
 
 ```
-XamarinFormsEffects.iOS.Effects.Init();
+Organon.XForms.Effects.iOS.iOSEffects.Init();
 ```
 
 from your AppDelegate. This ensures the assembly is loaded and the effects are available.
