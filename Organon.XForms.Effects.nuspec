@@ -3,14 +3,14 @@
    <metadata minClientVersion="2.8.1">
        <id>Organon.Forms.Effects</id>
        <version>$version$</version>
-       <title>Effects for Xamarin.Forms</title>
+       <title>Organon Effects for Xamarin.Forms</title>
        <authors>Glenn Versweyveld, Matthew Robbins, Jim Bennett</authors>
        <owners>Glenn Versweyveld, Matthew Robbins, Jim Bennett</owners>
        <projectUrl>https://github.com/OrganonKit/Organon</projectUrl>
        <licenseUrl>https://github.com/OrganonKit/Organon/blob/master/LICENSE</licenseUrl>
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <description>
-         Organin Effects Library for Xamarin.Forms
+         Organon Effects Library for Xamarin.Forms
          Built against: 2.3.2.127
        </description>
        <summary>Effects for Xamarin.Forms for iOS and Android</summary>
