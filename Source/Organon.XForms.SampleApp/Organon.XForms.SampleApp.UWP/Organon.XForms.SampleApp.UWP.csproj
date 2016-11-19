@@ -128,6 +128,14 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Organon.XForms.Effects\Organon.XForms.Effects.UWP\Organon.XForms.Effects.UWP.csproj">
+      <Project>{98f91808-0410-4362-9b3a-bd5110beecde}</Project>
+      <Name>Organon.XForms.Effects.UWP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Organon.XForms.Effects\Organon.XForms.Effects\Organon.XForms.Effects.csproj">
+      <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
+      <Name>Organon.XForms.Effects</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Organon.XForms.SampleApp\Organon.XForms.SampleApp.csproj">
       <Project>{1b327778-45e3-49ca-bf96-6cfefd6d3eb8}</Project>
       <Name>Organon.XForms.SampleApp</Name>
