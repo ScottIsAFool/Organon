@@ -33,9 +33,11 @@
       <Label Text="RemoveEntryLineEffect" Margin="0,20,0,0"/>
       <Entry Placeholder="start typing..." VerticalOptions="Start">
          <Entry.Effects>
-        <effects:RemoveEntryLineEffect />
+            <effects:RemoveEntryLineEffect />
          </Entry.Effects>
       </Entry>
+    
+      <Image Source="https://goo.gl/FMTSLB" effects:BlurEffect.BlurAmount="10" />
 	</StackLayout>
   
 </ContentPage>
