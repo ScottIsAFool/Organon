@@ -78,7 +78,8 @@ namespace Organon.XForms.Effects.UWP.Effects
 
         private void OnUnloaded(object sender, RoutedEventArgs e)
         {
-            Container.SizeChanged -= OnSizeChanged;
+            if(Container != null)
+                Container.SizeChanged -= OnSizeChanged;
         }
 
         private void OnSizeChanged(object sender, SizeChangedEventArgs e)
