@@ -12,6 +12,17 @@
 
   <StackLayout Padding="20">
     <Label Text="BlurViewEntryEffect"/>
-    <Image Source="https://goo.gl/FMTSLB" effects:BlurEffect.BlurAmount="10" />
+
+    <!-- Binding the blur amount to the slider will currently not work because a bug in composition framework -->
+    <!-- To force it, you'll need to resize the window -->
+    <!--
+    <Slider x:Name="BlurSlider" Minimum="0" Maximum="25" />
+    <Image BindingContext="{x:Reference BlurSlider}"
+           Source="https://goo.gl/FMTSLB"
+           effects:BlurEffect.BlurAmount="{Binding Value}" />
+    -->
+
+    <Image Source="https://goo.gl/FMTSLB"
+           effects:BlurEffect.BlurAmount="10" />
   </StackLayout>
 </ContentPage>
