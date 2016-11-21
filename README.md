@@ -27,3 +27,5 @@ from your AppDelegate. This ensures the assembly is loaded and the effects are a
 ###### Samples
 
 ![ClearEntryEffect and CapitalizeKeyboardEffect](Media/ClearEntryAndAllCaps_thumb.gif) ![RemoveBorderEffect](Media/NoBorders_thumb.gif)
+
+![Android Effects](Media/AndroidEffects_thumb.gif)
