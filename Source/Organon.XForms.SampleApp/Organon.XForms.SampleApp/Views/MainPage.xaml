@@ -14,6 +14,7 @@
 	<StackLayout Padding="20">
     <Button x:Name="EntryButton" Text="Entry effects" Clicked="OnEntryButtonClicked" />
     <Button x:Name="ViewButton" Text="View effects" Clicked="OnViewButtonClicked" />
+    <Button x:Name="SwitchButton" Text="Switch effects" Clicked="OnSwitchButtonClicked" />
 	</StackLayout>
   
 </ContentPage>

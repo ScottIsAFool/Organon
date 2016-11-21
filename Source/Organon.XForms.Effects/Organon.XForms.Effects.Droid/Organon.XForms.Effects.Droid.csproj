@@ -18,7 +18,8 @@
     <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <AndroidTlsProvider></AndroidTlsProvider>
+    <AndroidTlsProvider>
+    </AndroidTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,6 +94,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Effects\ChangeColorSwitchEffect.cs" />
     <Compile Include="Effects\ClearEntryEffect.cs" />
     <Compile Include="Effects\RemoveEntryLineEffect.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

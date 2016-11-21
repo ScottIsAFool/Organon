@@ -19,5 +19,10 @@ namespace Organon.XForms.SampleApp.Views
         {
             Navigation.PushAsync(new ViewPage());
         }
+
+        private void OnSwitchButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SwitchPage());
+        }
     }
 }
