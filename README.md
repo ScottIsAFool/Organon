@@ -12,6 +12,7 @@ Included effects:
 | RemoveBorderEffect | Removes the border from an Entry on iOS | x | - | Todo |
 | RemoveEntryLineEffect | Removes the underline from an Entry on Android | - | x | - |
 | ViewBlurEffect | Blur any view | Todo | Todo | x |
+| ChangeColorSwitchEffect | Change colors of switch | Todo | x | Todo |
 
 
 ###### iOS
