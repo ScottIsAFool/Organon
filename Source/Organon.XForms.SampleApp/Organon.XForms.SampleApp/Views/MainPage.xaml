@@ -12,30 +12,8 @@
   </ContentPage.Padding>
   
 	<StackLayout Padding="20">
-      <Label Text="ClearEntryEffect"/>
-      <Entry Placeholder="start typing..." VerticalOptions="Start">
-         <Entry.Effects>
-            <effects:ClearEntryEffect />
-         </Entry.Effects>
-      </Entry>
-      <Label Text="CapitalizeKeyboardEffect" Margin="0,20,0,0"/>
-      <Entry Placeholder="start typing..." VerticalOptions="Start">
-         <Entry.Effects>
-            <effects:CapitalizeKeyboardEffect />
-         </Entry.Effects>
-      </Entry>
-      <Label Text="RemoveBorderEffect" Margin="0,20,0,0"/>
-      <Entry Placeholder="start typing..." VerticalOptions="Start">
-         <Entry.Effects>
-            <effects:RemoveBorderEffect />
-         </Entry.Effects>
-      </Entry>
-      <Label Text="RemoveEntryLineEffect" Margin="0,20,0,0"/>
-      <Entry Placeholder="start typing..." VerticalOptions="Start">
-         <Entry.Effects>
-        <effects:RemoveEntryLineEffect />
-         </Entry.Effects>
-      </Entry>
+    <Button x:Name="EntryButton" Text="Entry effects" Clicked="OnEntryButtonClicked" />
+    <Button x:Name="ViewButton" Text="View effects" Clicked="OnViewButtonClicked" />
 	</StackLayout>
   
 </ContentPage>

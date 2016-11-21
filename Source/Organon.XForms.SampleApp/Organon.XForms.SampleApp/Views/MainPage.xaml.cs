@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace Organon.XForms.SampleApp.Views
 {
@@ -7,6 +8,16 @@ namespace Organon.XForms.SampleApp.Views
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void OnEntryButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EntryPage());
+        }
+
+        private void OnViewButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ViewPage());
         }
     }
 }
